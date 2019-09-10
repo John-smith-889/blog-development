@@ -1,22 +1,34 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+#permalink:           pretty
+#permalink: /:categories/:title:output_ext
+permalink: none
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 https://john-smith-889.github.io/temporary_tips_v03/
-# url:                 http://lanyon.getpoole.com
-baseurl:             '/lanyon/'
-paginate:            5
+title:               'Everyday normal hacker'
+tagline:             data science and coding
+description:         # <a href="link to linkedin" target="_blank">ask for Polish language version</a>
+                     <br /> 
+                     <br />     
+#                    <img src="image.jpg" alt="My Logo" WIDTH=400 HEIGHT=400>                      
+#                    English language version
+# 'A reserved blog that places the utmost gravity on content. Made by <a href="link to linkedin" target="_blank">@someone</a>.'
+url:                 https://john-smith-889.github.io/blog_development/
+# url:               https://john-smith-889.github.io/blog_development/  
+baseurl:             ''
+
+# Plugins:
+plugins:
+  - jekyll-paginate
+paginate:             5
+#paginate:            5
 
 # About/contact
-author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+author:              John Smith
+  name:              
+  email:             
 
 # Custom vars
-version:             1.0.0
+version:             1.0.
+

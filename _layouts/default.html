@@ -12,9 +12,19 @@
     <div class="wrap">
       <div class="masthead">
         <div class="container">
-          <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
+		<!-- here add something above blog title. this below not wrap :( -->
+		
+		<!-- div container for logo -->
+		<div class="logo"> <!-- inside this container which have its object in poole file, we may put picture and text in second container is wrapped around it -->
+		<a href="{{ site.baseurl }}/categories_and_tags" title="Categories"> <img src="/assets/x3.png" height="44" width="125" align=”left”>
+		</div> 
+		<!-- <img src="/assets/logo.png" height="37" width="120" align=”left”> 
+		</div>
+		-->
+	    <h3 class="masthead-title">  <!-- <a <i class='fa fa-cloud fa-x'></i></a> --> 
+		<div style="line-height:5%;"> <br> </div> <!-- place a blog title a little down --> 
+		
+		<a href="{{ site.baseurl }}/categories_and_tags" title="Home">&nbsp;{{ site.title }}</a> <small>{{ site.tagline }}</small>
           </h3>
         </div>
       </div>
@@ -43,5 +53,40 @@
         }, false);
       })(document);
     </script>
+	
+	<footer>
+      
+	  <div class="sidebar-item">
+    <p>
+	<br>
+	<!-- div container for social media buttons -->
+	<div id="contact-list" style="text-align:center">
+	<!-- contact icons go here --> 
+	<!-- <a href="{{ site.baseurl }}/index.html"><i class='fa fa-home fa-2x'></i> Home</a> |-->
+	<a href="mailto:&#69;ver&#121;dayNorma&#108;Hacker[at]gma&#105;l[dot]com"><i class='fa fa-envelope fa-2x' style="color:#232429" ></i></a> 
+	&nbsp
+	<a href="https://www.linkedin.com/in/bartlomiejczajewski/"><i class='fa fa-linkedin fa-2x' style="color:#232429" ></i></a> 
+	&nbsp
+	<a href="https://github.com/John-smith-889"><i class='fa fa-github fa-2x' style="color:#232429" ></i></a> 
+	
+	
+	
+	</div>
+	<div id="contact-list" style="text-align:center">
+	<br />
+		<span style="color:black; font-family:Sitka Heading; font-size: 100%;">
+			<!--&copy; {{ site.time | date: '%Y' }} ENH. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>
+			-->
+			&copy; {{ site.time | date: '%Y' }} ENH. This work is licensed under <a href="/licenses.html" target="_blank" >licenses</a>
+			
+			</span>
+	<br /> 
+		<span style="color:black; font-family:Sitka Heading; font-size: 100%;">
+			Powered by <a href="https://jekyllrb.com/" target="_blank">jekyll</a> 
+		</span>
+	
+	  </p>
+  </div>
+    </footer>
   </body>
 </html>

@@ -49,12 +49,17 @@ body {
 
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 15px; /* 15px but this is not working actually*/
+  /*   line-height: 1.5; */
   line-height: 1.5;
 }
-@media (min-width: 38em) {
+/* @media (min-width: 38em) { */
+@media (min-width: 20em) {
   html {
-    font-size: 20px;
+/* There we may change general size of all html site */
+	/* font-size: 20px; */
+    font-size: 18px;
   }
 }
 
@@ -88,25 +93,43 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 1.9rem;
+  /*margin-bottom: 1.5rem;*/
+
 }
 h2 {
   margin-top: 1rem;
-  font-size: 1.5rem;
+ /* margin-bottom: 1.5rem; */
+
+  /*   font-size: 1.5rem; */
+  font-size: 1.7rem;
 }
 h3 {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
+  /* margin-bottom: 1.5rem; */
+  /*   font-size: 1.5rem; */
+  font-size: 1.45rem;
+}
+h4 {
+  margin-top: 1rem; 
+  font-size: 1.3rem;
+}
+h5 {
+  margin-top: 1.2rem;
   font-size: 1.25rem;
 }
-h4, h5, h6 {
-  margin-top: 1rem;
-  font-size: 1rem;
+h6 {
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
 }
 
 /* Body text */
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  /*there was no size regulation there before*/
+  font-size: 1rem;
+  width: 100%;
 }
 
 strong {
@@ -148,15 +171,38 @@ abbr[title] {
 }
 
 /* Code */
+/* There we may change font and background color for code snippets*/
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+
+  /* There we may change font for code */
+  /*font-family: Menlo, Monaco, "Courier New", monospace;*/
+  font-family: Menlo, Monaco, "Consolas", monospace;
 }
 code {
   padding: .25em .5em;
+
+  /* There we may change font size for 'code' snippets*/
+  /* font-size: 85%; - poole default*/
+  /* font-size: 90%; - used for my black-purpe theme*/
   font-size: 85%;
-  color: #bf616a;
-  background-color: #f9f9f9;
+
+  /*color of code written in `code` apostrophs */
+  /* color: #bf616a; - poole default, medium-pink */
+  /* color: #f263e9; - purple - used for my black-purpe theme */
+  color: #bf616a; 
+
+  /* There we may change color of little code snippets done by 'code' */
+
+  /*background-color: #f9f9f9; - poole default*/
+  /*background-color: #635959; - dark grey*/
+  /*background-color: #484d46; - dark grey - a bit green */       
+  /*background-color: #403b3c; - dark grey - a bit red - used for my black-purpe theme */ 
+
+  /*background-color: #272924;- very dark grey - green, close to default monokai background colour*/
+  /*background-color: #000000; - pure black*/
+  
+  background-color: #f9f9f9; 
   border-radius: 3px;
 }
 pre {
@@ -164,12 +210,24 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   padding: 1rem;
+
+  /* There we may change font size for big markdown or rogue code snippets*/
+  /* font-size: .8rem; */
+  /* font-size: .7rem; - used for my black-purpe theme */
   font-size: .8rem;
   line-height: 1.4;
   white-space: pre;
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
+
+  /* There we may change color of large markdown or Rogue code snippets done by 'code' */
+  /* But if we set "monokai' theme for syntax highlighting, this background is automatically */
+  /* put in some near-black colour default for monokai which covers settings in code below */
+
+  /*background-color: #f9f9f9; - poole default*/
+  /*background-color: #635959; - dark grey*/
+  /*background-color: #000000; - pure black*/
   background-color: #f9f9f9;
 }
 pre code {
@@ -296,7 +354,7 @@ tbody tr:nth-child(odd) th {
 
 /*
  * Masthead
- *
+ *wtf
  * Super small header above the content for site name and short description.
  */
 
@@ -320,6 +378,11 @@ tbody tr:nth-child(odd) th {
   letter-spacing: 0;
 }
 
+/* Container class for logo */
+.logo {
+float: left;
+}
+
 
 /*
  * Posts and pages
@@ -331,6 +394,7 @@ tbody tr:nth-child(odd) th {
 .page,
 .post {
   margin-bottom: 4em;
+  /*width: 120%;*/
 }
 
 /* Blog post or page title */
@@ -366,6 +430,7 @@ tbody tr:nth-child(odd) th {
   margin-top: 0;
 }
 .related-posts li small {
+	/*   font-size: 75%; */
   font-size: 75%;
   color: #999;
 }

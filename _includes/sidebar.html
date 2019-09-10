@@ -4,10 +4,30 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
+
+    <!--  
+  <div class="sidebar-item">
+    <div id="contact-list" style="text-align:center">
+	
+    </div>
+  </div>
+-->
+  
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
   </div>
-
+  
+  <!-- Put some sweet big cloud, temporarly instead of gh picture -->
+  <div class="sidebar-item">
+    <div id="contact-list" style="text-align:center">
+		<a <i class='fa fa-cloud fa-5x'></i></a> 
+		Data Science
+		<br /> 
+        and coding
+    </div>
+  </div>
+  
+  
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
 
@@ -25,14 +45,46 @@
       {% endif %}
     {% endfor %}
 
+<!-- there are three more tiles showing up in toggle bar  -->
+<!-- 
     <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
     <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+	-->
   </nav>
 
   <div class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-    </p>
+	
+	<!-- div container for social media buttons -->
+	<div id="contact-list" style="text-align:center">
+	<!-- contact icons go here --> 
+	<!-- <a href="{{ site.baseurl }}/index.html"><i class='fa fa-home fa-2x'></i> Home</a> |-->
+	<a href="mailto:&#69;ver&#121;dayNorma&#108;Hacker[at]gma&#105;l[dot]com"><i class='fa fa-envelope fa-2x'></i></a>
+	
+	&nbsp
+	<a href="https://www.linkedin.com/in/bartlomiejczajewski/"><i class='fa fa-linkedin fa-2x'></i></a> 
+	&nbsp
+	<a href="https://github.com/John-smith-889"><i class='fa fa-github fa-2x'></i></a> 
+	
+
+	</div>
+	
+	<br /><!-- 
+      &copy; {{ site.time | date: '%Y' }} ENH. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>
+           -->
+    &copy; {{ site.time | date: '%Y' }} ENH. This work is licensed under <a href="/licenses.html">licenses</a>
+	<br />
+	<br />
+	Powered by <a href="https://jekyllrb.com/" target="_blank">jekyll</a> 
+	and <a href="http://lanyon.getpoole.com/" target="_blank">lanyon</a> 
+	and <a href="https://pages.github.com/" target="_blank">github pages</a> 
+	
+	
+	
+	
+	
+	
+	  </p>
   </div>
 </div>
