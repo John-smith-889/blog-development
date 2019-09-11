@@ -14,9 +14,13 @@ description:         # <a href="link to linkedin" target="_blank">ask for Polish
 #                    <img src="image.jpg" alt="My Logo" WIDTH=400 HEIGHT=400>                      
 #                    English language version
 # 'A reserved blog that places the utmost gravity on content. Made by <a href="link to linkedin" target="_blank">@someone</a>.'
-url:                 https://john-smith-889.github.io/blog_development/
-# url:               https://john-smith-889.github.io/blog_development/  
+url:                 https://john-smith-889.github.io/blog-development/
+# url:               https://john-smith-889.github.io/blog-development/  
+#<!-- only this code works in local:  -->
 baseurl:             ''
+#<!-- only this code works in prod:  -->
+#baseurl:             '/blog-development'
+#baseurl:             '/blog'
 
 # Plugins:
 plugins:
@@ -26,9 +30,6 @@ paginate:             5
 
 # About/contact
 author:              John Smith
-  name:              
-  email:             
 
 # Custom vars
 version:             1.0.
-

@@ -6,7 +6,7 @@ tags: ["#ruby &nbsp; #jekyll &nbsp; #html &nbsp; #css"]
 ---
 <p align="left"> <span style="color:darkblue; font-family:Calibri; font-size: 110%;"> <em> #ruby &nbsp; #jekyll &nbsp; #html &nbsp; #css </em></span> </p>
 
-![background-picture](/assets/jekyll-white-black.png)
+![background-picture]({{site.baseurl}}/assets/jekyll-white-black.png)
 
 <br>
 Jekyll is a blog-aware static site generator in Ruby. Official documentation you may find there: [Jekyll](https://jekyllrb.com/).

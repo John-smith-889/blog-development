@@ -6,7 +6,7 @@ tags: ["#html &nbsp; #markdown"]
 ---
 <p align="left"> <span style="color:darkblue; font-family:Calibri; font-size: 110%;"> <em> #html &nbsp;  #markdown </em></span> </p>
 
-![background-picture](/assets/front-end.png)
+![background-picture]({{site.baseurl}}/assets/front-end.png)
 
 Creating a blog demands using some amount of graphical motives. In this place formatting and graphical motives are aggregated, useful in creating visual aspect of a Jekyll website. To explore motives presented below go to [github repository](https://github.com/John-smith-889/blog) to "_posts" catalog, and open this post to look at code behind that.
 
@@ -475,7 +475,7 @@ Something<sub>text</sub>
 <br>
 ### Photo uploading
 
-![background-picture](/assets/karina-vorozheeva-unsplash.png)
+![background-picture]({{site.baseurl}}/assets/karina-vorozheeva-unsplash.png)
 
 <br>
 ### Annotation

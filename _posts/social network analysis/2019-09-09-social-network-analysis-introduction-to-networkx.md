@@ -6,7 +6,7 @@ tags: ["#python &nbsp; #networkx"]
 ---
 <p align="left"> <span style="color:darkblue; font-family:Calibri; font-size: 110%;"> <em> #python &nbsp;  #networkx </em></span> </p>
 
-![background-picture](/assets/networkx.png)
+![background-picture]({{site.baseurl}}/assets/networkx.png)
 
 <br>
 NetworkX is a Python library for working with graphs and perform analysis on them. 
@@ -108,7 +108,7 @@ nx.draw(H, with_labels=True, node_color='#b2b2ff', node_size=700,
 	font_size=14)
 ```
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_11_1.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_11_1.png)
 
 
 ### Create a graph from an adjacency matrix
@@ -136,7 +136,7 @@ nx.draw(G, with_labels=True, node_color='#b2b2ff', node_size=700,
 ```
 
 
-![png](/assets/social-network-analysis-introduction-to-networkx/output_12_0.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_12_0.png)
 
 
 ### Create a chain graph
@@ -155,7 +155,7 @@ nx.draw(H, with_labels=True, node_color='#b2b2ff', node_size=700,
 ```
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_13_0.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_13_0.png)
 
 
 
@@ -181,7 +181,7 @@ nx.draw(G, with_labels=True, node_color='#b2b2ff', node_size=700,
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_15_0.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_15_0.png)
 
 
 
@@ -197,7 +197,7 @@ nx.draw(G, with_labels=True, node_color='#b2b2ff', node_size=700,
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_16_0.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_16_0.png)
 
 
 
@@ -236,7 +236,7 @@ nx.draw(G, with_labels=True, node_color='#b2b2ff', node_size=700,
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_20_0.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_20_0.png)
 
 
 
@@ -280,7 +280,7 @@ nx.draw(G, with_labels=True, node_color='#b2b2ff', node_size=700,
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_24_0.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_24_0.png)
 
 
 
@@ -295,7 +295,7 @@ nx.draw(G, with_labels=True, node_color='#b2b2ff', node_size=700,
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_25_0.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_25_0.png)
 
 
 ### Add edges to a graph
@@ -315,7 +315,7 @@ nx.draw(G, with_labels=True, node_color='#b2b2ff', node_size=700,
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_27_0.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_27_0.png)
 
 
 We can see above that if an edge is created - all needed non-existing nodes are created as well.
@@ -357,7 +357,7 @@ nx.draw(G, with_labels=True, node_color='#b2b2ff', node_size=700,
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_31_0.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_31_0.png)
 
 
 
@@ -385,7 +385,7 @@ nx.draw(G, with_labels=True, node_color='#b2b2ff', node_size=700,
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_33_0.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_33_0.png)
 
 
 
@@ -404,7 +404,7 @@ nx.draw(G, with_labels=True, node_color='#b2b2ff', node_size=700,
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_35_0.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_35_0.png)
 
 
 ### Remove edges from a graph
@@ -421,7 +421,7 @@ nx.draw(G, with_labels=True, node_color='#b2b2ff', node_size=700,
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_37_0.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_37_0.png)
 
 
 
@@ -436,7 +436,7 @@ nx.draw(G, with_labels=True, node_color='#b2b2ff', node_size=700,
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_38_0.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_38_0.png)
 
 
 ### Add weighted edges to a graph
@@ -482,7 +482,7 @@ nx.draw_networkx_edge_labels(G, pos)
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_42_1.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_42_1.png)
 
 
 ### Create Erdős-Rényi graph
@@ -504,7 +504,7 @@ nx.draw(G, with_labels=True, node_color='#b2b2ff', node_size=700,
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_45_0.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_45_0.png)
 
 
 ### Add random weights to the graph
@@ -547,7 +547,7 @@ nx.draw_networkx_edge_labels(G, pos)
 	 (4, 5): Text(-0.2875249350332891, -0.7985222740476496, "{'weight': 0.63}")}
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_47_2.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_47_2.png)
 
 
 Note that positions of nodes may differ from the unweighted graph, but structure of the graph is the same
@@ -746,7 +746,7 @@ nx.draw_networkx_edge_labels(G, pos)
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_69_1.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_69_1.png)
 
 
 Weights are one type of attributes. We may create custom attributes.
@@ -776,7 +776,7 @@ nx.draw_networkx_edge_labels(G, pos)
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_71_1.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_71_1.png)
 
 
 
@@ -920,7 +920,7 @@ nx.draw(G, with_labels=True, node_color='#b2b2ff', node_size=700,
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_87_0.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_87_0.png)
 
 
 ### Check properties
@@ -1255,7 +1255,7 @@ nx.draw_networkx_edge_labels(G, pos)
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_116_1.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_116_1.png)
 
 
 ### 1st method for edges + weights extraction
@@ -1361,12 +1361,12 @@ nx.draw(G, with_labels=True, node_color='#b2b2ff', node_size=700,
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_128_0.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_128_0.png)
 
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_128_1.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_128_1.png)
 
 
 ### Draw 2 graphs on 1 chart
@@ -1394,7 +1394,7 @@ nx.draw(G, with_labels=True, node_color='#b2b2ff', node_size=700,
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_130_0.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_130_0.png)
 
 
 ### Draw 4 graphs on 1 chart with kwargs
@@ -1430,7 +1430,7 @@ nx.draw(G, with_labels=True, **kwargs)
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_133_0.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_133_0.png)
 
 
 ### Draw a graph with more arguments specified
@@ -1455,7 +1455,7 @@ nx.draw(G, # graph object
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_135_0.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_135_0.png)
 
 
  * with_labels (bool, optional (default=True)) – Set to True to draw labels 
@@ -1500,7 +1500,7 @@ nx.draw(G, with_labels=True, node_color='#b2b2ff', node_size=700,
 
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_139_0.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_139_0.png)
 
 
 
@@ -1526,7 +1526,7 @@ nx.draw(G, pos, edgelist=edges,
 ```
 
 &nbsp; &nbsp; <span style="color:blue; font-family:Calibri; font-size: 85%; font-weight: Bold">Output: </span>
-![png](/assets/social-network-analysis-introduction-to-networkx/output_140_1.png)
+![png]({{site.baseurl}}/assets/social-network-analysis-introduction-to-networkx/output_140_1.png)
 
 
 Note that positions of nodes may differ from the unweighted graph, but structure of the graph is the same.

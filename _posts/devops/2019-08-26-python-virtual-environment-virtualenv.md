@@ -7,7 +7,7 @@ tags: ["#python &nbsp; #virtualenv "]
 ---
 <p align="left"> <span style="color:darkblue; font-family:Calibri; font-size: 110%;"> <em> #python &nbsp;  #virtualenv </em></span> </p>
 
-![background-picture](/assets/virtualenv.png)
+![background-picture]({{site.baseurl}}/assets/virtualenv.png)
 
 <br>
 Sometimes there is a situation that one want to run some code found on the internet to automate some tasks. 
