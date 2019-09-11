@@ -1,6 +1,8 @@
 ---
 layout: hidden-page
 ---
+## Licenses
+<div style="line-height:20%;"> <br> </div>
 
 ##### © 2019 ENH. This work is licensed under a few licences:
 
