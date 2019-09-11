@@ -3,6 +3,7 @@ layout: post
 title: Introducing Jekyll Framework with Lanyon Theme
 categories: [Jekyll]
 tags: ["#ruby &nbsp; #jekyll &nbsp; #html &nbsp; #css"]
+comments: true
 ---
 <p align="left"> <span style="color:darkblue; font-family:Calibri; font-size: 110%;"> <em> #ruby &nbsp; #jekyll &nbsp; #html &nbsp; #css </em></span> </p>
 

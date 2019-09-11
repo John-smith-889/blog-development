@@ -3,6 +3,7 @@ layout: post
 title: Code Highlighting and Formatting Cheetsheet in Jekyll
 categories: [Jekyll]
 tags: ["#html &nbsp; #markdown"]
+comments: true
 ---
 <p align="left"> <span style="color:darkblue; font-family:Calibri; font-size: 110%;"> <em> #html &nbsp;  #markdown </em></span> </p>
 

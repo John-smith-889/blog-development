@@ -3,6 +3,7 @@ layout: post
 title: Social Network Analysis in Python - Introduction to NetworkX
 categories: [Social Network Analysis]
 tags: ["#python &nbsp; #networkx"]
+comments: true
 ---
 <p align="left"> <span style="color:darkblue; font-family:Calibri; font-size: 110%;"> <em> #python &nbsp;  #networkx </em></span> </p>
 
