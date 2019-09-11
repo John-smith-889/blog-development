@@ -40,10 +40,10 @@
     {% for node in pages_list %}
       {% if node.title != null %}
         {% if node.layout == "page" %}
-	<!-- only this code works in local:  -->
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-	<!-- only this code works in prod:  -->
-	<!--<a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+	<!-- this code works in local and prod as well:  -->
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{site.baseurl}}{{node.url}}">{{ node.title }}</a>
+	<!-- only this code works in prod:?  -->
+	<!--<a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a> -->
         {% endif %}
       {% endif %}
     {% endfor %}

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: hidden-page
 ---
 ## Licenses
 <div style="line-height:20%;"> <br> </div>
