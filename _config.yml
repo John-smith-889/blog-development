@@ -17,9 +17,9 @@ description:         # <a href="link to linkedin" target="_blank">ask for Polish
 url:                 https://john-smith-889.github.io/blog-development/
 # url:               https://john-smith-889.github.io/blog-development/  
 #<!-- only this code works in local:  -->
-baseurl:             ''
+#baseurl:             ''
 #<!-- only this code works in prod:  -->
-#baseurl:             '/blog-development'
+baseurl:             '/blog-development'
 #baseurl:             '/blog'
 
 # Plugins:
