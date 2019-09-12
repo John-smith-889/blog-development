@@ -28,8 +28,9 @@ an image, an XML object, another Graph, a customized node object, etc.”
 <br> <cite>&mdash; NetworkX documentation </cite>
 </p>
 
-Content below is based on very good NetworkX [documentation](https://networkx.github.io/documentation/stable/) where you can go deeper into NetworkX. 
-In this post you may see simple examples how to use code.
+Content below is based on very good NetworkX 
+<a href="https://networkx.github.io/documentation/stable/" target="_blank" title="keyword">documentation</a>
+where you can go deeper into NetworkX. In this post you may see simple examples how to use code.
 
 <p style="
 border:3px; 
@@ -1402,7 +1403,8 @@ nx.draw(G, with_labels=True, node_color='#b2b2ff', node_size=700,
 
 In the situation where we have to define arguments for many subplots we may use "kwargs" (keyworded arguments) feature. 
 It allows us to define a dictionary contains keys with values, which become arguments of a function. Clear explanation 
-of this feature you may find [there](https://pythontips.com/2013/08/04/args-and-kwargs-in-python-explained/).
+of this feature you may find
+<a href="https://pythontips.com/2013/08/04/args-and-kwargs-in-python-explained/" target="_blank" title="keyword">there</a>.
 
 
 ```python
@@ -1484,8 +1486,8 @@ nx.draw(G, # graph object
  * font_color (string, optional (default=’k’ black)) – Font color string <br>
  * font_family (string, optional (default=’sans-serif’)) – Font family <br>
  
- Check more arguments in [NetworkX documentation](https://networkx.github.io/documentation/stable/reference/generated/networkx.drawing.nx_pylab.draw_networkx.html#networkx.drawing.nx_pylab.draw_networkx).
- 
+ Check more arguments in
+<a href="https://networkx.github.io/documentation/stable/reference/generated/networkx.drawing.nx_pylab.draw_networkx.html#networkx.drawing.nx_pylab.draw_networkx" target="_blank" title="keyword">NetworkX documentation</a>.
 
 ### Add random weights to a graph and draw as colored edges
 

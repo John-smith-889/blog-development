@@ -10,14 +10,17 @@ comments: true
 ![background-picture]({{site.baseurl}}/assets/jekyll-white-black.png)
 
 <br>
-Jekyll is a blog-aware static site generator in Ruby. Official documentation you may find there: [Jekyll](https://jekyllrb.com/).
+Jekyll is a blog-aware static site generator in Ruby. Official documentation you may find there: 
+<a href="https://jekyllrb.com/" target="_blank" title="keyword">Jekyll</a>.
 It is easy to host on GitHub Pages for free. The inbuild option of GitHub Pages is assortment of few simple Jekyll themes. 
 There is a few free Jekyll themes on the internet. 
 
 Going through many themes I found the best for me - Lanyon theme. 
 Very simle, minimalistic and elegant. Fallen in love from the first sight.
 The representative version of theme you may find there:
-[lanyon blog](http://lanyon.getpoole.com/), and find its GitHub there: [Lanyon GitHub](https://github.com/poole/lanyon).
+<a href="http://lanyon.getpoole.com/" target="_blank" title="keyword">lanyon blog</a>, 
+and find its GitHub there: 
+<a href="https://github.com/poole/lanyon" target="_blank" title="keyword">Lanyon GitHub</a>. 
 
 <p style="
 border:3px; 
@@ -38,16 +41,20 @@ width: 60%;
 
 ### 1.1. Ruby installation
 
-Having in mind future blog deployment on GitHub Pages, go on [GitHub Pages website](https://pages.github.com/versions/) where current versions of libraries may be seen, 
+Having in mind future blog deployment on GitHub Pages, go on 
+<a href="https://pages.github.com/versions/" target="_blank" title="keyword">GitHub Pages website</a>
+where current versions of libraries may be seen, 
 which are dependencies of GitHub Pages.
 
 Pay attention particularly to Ruby version (2.5.3 while writing this text), and jekyll version (3.8.5). 
 
-Go on Ruby page [GitHub Pages website](https://rubyinstaller.org/downloads/archives/)
-And download "Ruby+Devkit Installer" which match Ruby version from GitHub Pages, for example 2.5.3.
+Go on 
+<a href="https://rubyinstaller.org/downloads/archives/" target="_blank" title="keyword">Ruby page</a>
+and download "Ruby+Devkit Installer" which match Ruby version from GitHub Pages, for example 2.5.3.
 We may choose x64 or x86 version. I have choosen x86 version, which worked for me.
 
-After simple installation process (tips [there](https://www.youtube.com/watch?v=LfP7Y9Ja6Qc)),
+After simple installation process (tips 
+<a href="https://www.youtube.com/watch?v=LfP7Y9Ja6Qc" target="_blank" title="keyword">there</a>),
 click on windows reading glass, and type "ruby", and you should see some app called like a 
 "Start Command Prompt with Ruby".
 
@@ -67,14 +74,16 @@ Remember GitHub Pages dependencies checkup? If version not match reinstall it:
 <div style="line-height:20%;"> <br> </div>
 ### 1.2. Downloading repository with Lanyon Jekyll theme
 
-You may download repository from GitHub manually, or using git bash. You may found it [there](https://gitforwindows.org/). 
+You may download repository from GitHub manually, or using git bash. You may found it 
+<a href="https://gitforwindows.org/" target="_blank" title="keyword">there</a>.
 
 When you finally install it, click on windows reading glass, and type "git bash".
 
 After running this application, move to the proper place when you want to download repository, by typing `$ cd path/where/you/want/download`
 
 And then run git clone with link to GitHub repository, which you may find after click on 
-"Clone or download" button on proper git repository [webpage](https://github.com/poole/lanyon).
+"Clone or download" button on proper git repository 
+<a href="https://github.com/poole/lanyon" target="_blank" title="keyword">webpage</a>.
 <br>
 `$ git clone https://github.com/poole/lanyon.git`
 
@@ -151,7 +160,8 @@ paginate: 5
 
 To deploy blog on GitHub Pages you need first to: 
 * create empty repository on github.
-* upload files manually or with git command line (instructions you may find [there](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line).)
+* upload files manually or with git command line (instructions you may find 
+<a href="https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line" target="_blank" title="keyword">there</a>.)
 * go to repository settings, scroll down to "GitHub Pages" section, below "Source" you may set "master branch".
 * after refreshing page, link to jekyll blog should appear in the repository settings in "GitHub Pages" section 
 

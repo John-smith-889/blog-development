@@ -9,7 +9,10 @@ comments: true
 
 ![background-picture]({{site.baseurl}}/assets/front-end.png)
 
-Creating a blog demands using some amount of graphical motives. In this place formatting and graphical motives are aggregated, useful in creating visual aspect of a Jekyll website. To explore motives presented below go to [github repository](https://github.com/John-smith-889/blog) to "_posts" catalog, and open this post to look at code behind that.
+Creating a blog demands using some amount of graphical motives. In this place formatting and graphical motives are aggregated, 
+useful in creating visual aspect of a Jekyll website. To explore motives presented below go to 
+<a href="https://github.com/John-smith-889/blog" target="_blank" title="keyword">github repository</a>.
+to "_posts" catalog, and open this post to look at code behind that.
 
 
 <div style="line-height:60%;"> <br> </div>
@@ -408,6 +411,16 @@ Something<sub>text</sub>
 1. First number
 2. second
 3. third
+
+
+<br>
+### External link type 1
+[link somewhere](https://www.google.pl/)
+
+
+<br>
+### External link type 2 (with opening in a new window)
+<a href="https://www.google.pl" target="_blank" title="keyword">link somewhere</a>
 
 
 <br>
