@@ -21,7 +21,10 @@ If you want to discuss on topics mentioned on blog, do not hesitate to contact w
 
 <div style="line-height:80%;"> <br> </div>
 
-[Contact me on linkedin](https://www.linkedin.com/in/bartlomiejczajewski/) 
+<a href="https://www.linkedin.com/in/bartlomiejczajewski/" target="_blank" onclick="gtag('event', 'click', { 'send_to': 'UA-147617792-1', 'event_category': 'about', 'event_action': 'linkedin-click', 'event_label': 'linkedin'});" title="keyword">Contact me on linkedin
+<!-- old link -->
+<!--[Contact me on linkedin](https://www.linkedin.com/in/bartlomiejczajewski/) -->
 
 Thanks for reading!
+
 

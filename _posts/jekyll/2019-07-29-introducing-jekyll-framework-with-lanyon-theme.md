@@ -19,8 +19,6 @@ Very simle, minimalistic and elegant. Fallen in love from the first sight.
 The representative version of theme you may find there:
 [lanyon blog](http://lanyon.getpoole.com/), and find its GitHub there: [Lanyon GitHub](https://github.com/poole/lanyon).
 
-  
-
 <p style="
 border:3px; 
 border-style:solid; 
